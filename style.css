@@ -114,6 +114,12 @@ h2 {
     margin-bottom: 32px;
 }
 
+  h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+  }  
+
 button {
     cursor: pointer;
 }
@@ -219,17 +225,19 @@ HIGHLIGHTS
 
 /*
 
-FEATURES
+FEATURES 
 
 */
 
-#features {
+#features,
+#recent {
     padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
 }
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -276,11 +284,16 @@ FEATURES
     color: #bfbfbf;
 }
 
+/* 
 
+RECENT 
 
+*/
 
-
-
+#recent {
+    padding-top: 8vw;
+    background-color: rgba(115, 66, 214, 0.1); ;
+}
 
 
 
