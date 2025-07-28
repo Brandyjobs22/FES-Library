@@ -120,6 +120,7 @@ h2 {
     text-align: center;
   }  
 
+
 button {
     cursor: pointer;
 }
@@ -151,6 +152,12 @@ button:active {
     max-width: 1200px;
     margin: 0 auto;
 
+}
+
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* 
@@ -225,7 +232,7 @@ HIGHLIGHTS
 
 /*
 
-FEATURES 
+FEATURES / RECENT
 
 */
 
@@ -291,9 +298,27 @@ RECENT
 */
 
 #recent {
-    padding-top: 8vw;
-    background-color: rgba(115, 66, 214, 0.1); ;
+    background-color: white;
 }
+
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+
+
+
+
+
+
+
+
 
 
 
